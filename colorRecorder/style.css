@@ -1,0 +1,52 @@
+#form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
+}
+
+button{
+    border-style: none;
+    color: gray;
+    height: 40px;
+}
+
+body{
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.6);
+    color: #000000;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-content: center
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+
+}
+
+#input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
